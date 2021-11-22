@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Josefin+Slab&display=swap");
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: "Josefin Slab", serif; 
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    line-height: 1.6rem;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    background-color: #fafafa;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 93.5rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+nav .nav-search {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.instagram-logo {
+    width: 10rem;
+    align-self: center;
+
+}
+
+.nav-search-bar {
+    align-self: center;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d3d3d3;
+    height: 4rem;
+    border-radius: 10px;
+}
+.nav-search-bar input {
+    width: 80%;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+
+.nav-search-bar button {
+    font-size: 1rem;
+    color: #262626;
+    border: none;
+    background-color: inherit;
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    outline: none;
+
+}
+.nav-location {
+    align-self: center;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+    align-items: center;
+}
+
+
+
